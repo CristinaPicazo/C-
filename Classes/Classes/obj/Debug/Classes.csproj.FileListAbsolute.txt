@@ -1,0 +1,10 @@
+C:\Users\derez\source\repos\Classes\Classes\bin\Debug\Classes.exe.config
+C:\Users\derez\source\repos\Classes\Classes\bin\Debug\Classes.exe
+C:\Users\derez\source\repos\Classes\Classes\bin\Debug\Classes.pdb
+C:\Users\derez\source\repos\Classes\Classes\obj\Debug\Classes.csprojAssemblyReference.cache
+C:\Users\derez\source\repos\Classes\Classes\obj\Debug\Classes.Form1.resources
+C:\Users\derez\source\repos\Classes\Classes\obj\Debug\Classes.Properties.Resources.resources
+C:\Users\derez\source\repos\Classes\Classes\obj\Debug\Classes.csproj.GenerateResource.cache
+C:\Users\derez\source\repos\Classes\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\derez\source\repos\Classes\Classes\obj\Debug\Classes.exe
+C:\Users\derez\source\repos\Classes\Classes\obj\Debug\Classes.pdb
