@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,32 @@ namespace Classes
     {
         private string AcctName;
         private decimal balance;
+        public event EventHandler OverDrawn;
+        public static decimal InterestRate
+        {
+            get
+            {
+                return 0.001m;
+            }
+        }
+        public string AccountName
+        {
+            get
+            {
+                return AcctName;
+            }
+            set
+            {
+                AcctName = value;
+            }
+        }
+        public decimal Balance
+        {
+            get
+            {
+                return this.balance;
+            }
+        }
 
         public void Deposit(decimal money)
         {
@@ -19,6 +45,8 @@ namespace Classes
         {
             if (money <= balance)
                 balance = balance - money;
+            else
+                OverDrawn(this, EventArgs.Empty);
         }
         public string Statement()
         {
@@ -41,5 +69,14 @@ namespace Classes
         {
             return AcctName;
         }
+    }
+
+
+}
+namespace MyClass
+{
+    class BankAccount
+    {
+
     }
 }
