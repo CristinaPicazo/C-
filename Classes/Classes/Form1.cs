@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,9 +29,16 @@ namespace Classes
         BankAccount account1;
         private void button1_Click(object sender, EventArgs e)
         {
-            account1 = new BankAccount("Cristina Picazo");
+            //account1 = new BankAccount("Cristina Picazo");
             //BankAccount account1 = new BankAccount("Cristina Picazo");
-            label2.Text = "Account created in the name of: " + account1.GetAccount();
+            account1 = new BankAccount();
+            account1.OverDrawn += new EventHandler(account1_OverDrawn);
+            account1.AccountName = "Cristina Picazo";
+            label2.Text = "Account created in the name of: " + account1.AccountName + "\nCurrent Balance: £" + account1.Balance;
+        }
+        private void account1_OverDrawn(object sender, EventArgs e)
+        {
+            MessageBox.Show("You do not have available funds. Contact your bank manager for an overdraft");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -49,6 +56,11 @@ namespace Classes
         private void button4_Click(object sender, EventArgs e)
         {
             label2.Text = account1.Statement();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            label2.Text = "Annual interest on the account " + account1.Balance * BankAccount.InterestRate;
         }
     }
 }
