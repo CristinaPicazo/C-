@@ -1,0 +1,10 @@
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\bin\Debug\MTAInheritance.exe.config
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\bin\Debug\MTAInheritance.exe
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\bin\Debug\MTAInheritance.pdb
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\obj\Debug\MTAInheritance.csprojAssemblyReference.cache
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\obj\Debug\MTAInheritance.Form1.resources
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\obj\Debug\MTAInheritance.Properties.Resources.resources
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\obj\Debug\MTAInheritance.csproj.GenerateResource.cache
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\obj\Debug\MTAInheritance.csproj.CoreCompileInputs.cache
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\obj\Debug\MTAInheritance.exe
+C:\Users\derez\source\repos\MTAInheritance\MTAInheritance\obj\Debug\MTAInheritance.pdb
