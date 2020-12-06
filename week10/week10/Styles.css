@@ -1,0 +1,16 @@
+﻿body {
+    font-family: Verdana;
+    font-size: 9pt;
+}
+
+div {
+    color: Red;
+}
+
+.block {
+    background-color: Yellow;
+    border-color: Blue;
+    border-width: thin;
+    border-style: outset;
+    font-family: Arial;
+}
